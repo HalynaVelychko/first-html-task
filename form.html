@@ -8,6 +8,136 @@
     <link rel="icon" href="img/logo-company.png">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <aside style="float:right; padding:20px">
+                <a href="index.html"><font size="3" color="black" face="Calibri">Головна</font></a>|
+            </aside>
+        </nav>
+        <br>
+            <aside style="float:left">
+                <img src="img/logo-company.png" alt="Logo Company" width="200px" height="100">
+            </aside>
+        <br>
+    </header>
+    <main>
+        <section> 
+            <h2 align="center">
+                <a name="Меню"><font face="Calibri" size="6">Складемо меню для дитини разом</font></a>
+            </h2>
+            <p align="center">
+            <font face="Calibri" widht="100%">
+                Просимо Вас пройти опитування. Це дозволить нам краще зрозуміти харчові звички вашої дитини.
+            </font>
+            </p>
+            <table cellspasing="100px" widht=100% align="left" cellpadding="5px">
+                    <tr>
+                        <td><img src="img/delicious.png" alt="Delicious" width="700" height="650"></td>
+                        <td>
+                            <font face="Calibri">
+                            <form action="https://formspree.io/mzbjdqro" method="POST">
+                                <label>
+                                    <b>Вкажіть вік дитини</b>
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="age" value="Вік">0-2 років
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="age" value="Вік">3-6 років
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="age" value="Вік">7-10 років
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="age" value="Вік">більше 10 років
+                                </label>
+                                <br><br>
+                                <label>
+                                    <b>Вкажіть стать дитини</b>
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="gender" value="Стать">Дівчинка
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="gender" value="Стать">Хлопчик
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="gender" value="Стать">Інше
+                                </label>
+                                <br><br>
+                                <label>
+                                    <b>Вкажіть кількість прийомів їжі на день</b>
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="amountfood" value="кількість прийомів">1-3
+                                </label>
+                                <label>
+                                    <input type="radio" name="age" value="Вік">3-5
+                                </label>
+                                <label>
+                                    <input type="radio" name="age" value="Вік">більше 5
+                                </label>
+                                <br><br>
+                                <label>
+                                    <b>Чи є у вашої дитини алергія на продукти харчування</b>
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="allergic" value="алергія">Так
+                                </label>
+                                <label>
+                                    <input type="radio" name="allergic" value="алергія">Ні
+                                </label>
+                                <br><br>
+                                <label>
+                                    <b>Якщо у дитини є алергія, вкажіть на які продукти</b>
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="text" pattern="^[А-Яа-яЁё\s]+$">
+                                </label>
+                                <br></br>
+                                <label>
+                                    <b>Вкажіть на які дні тижня потрібно скласти меню</b>
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="checkbox" name="days" value="1">Понеділок<br>
+                                    <input type="checkbox" name="days" value="1">Вівторок<br>
+                                    <input type="checkbox" name="days" value="1">Середа<br>
+                                    <input type="checkbox" name="days" value="1">Четвер<br>
+                                    <input type="checkbox" name="days" value="1">Пятниця<br>
+                                    <input type="checkbox" name="days" value="1">Субота<br>
+                                    <input type="checkbox" name="days" value="1">Неділя<br>
+                                </label><br>
+                                <label>
+                                    <b>Виберіть зі списку подарунок від нас</b>
+                                </label><br>
+                                <label>
+                                    <input list="gift"  name="подарунок" placeholder="Виберіть подарунок">
+                                        <datalist id="gift">
+                                            <option>Тарілка для малечі</option>
+                                            <option>Бокс для їжі</option>
+                                            <option>Термос для малечі</option>
+                                            <option>Пляшечка для дітей</option>
+                                        </datalist>
+                                </label>
+                                <br><br>
+                                <input type="submit" value="Надіслати">  
+                            </form> 
+                            </font>
+                        </td>
+                    </tr>
+            </table>
+        </section>
+    </main>
 </body>
 </html>
